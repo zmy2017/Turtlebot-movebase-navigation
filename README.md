@@ -73,6 +73,7 @@ On terminal 2 run:
 ```
 python test_navigation.py
 ```
+![](https://github.com/zmy2017/Turtlebot-movebase-navigation/blob/master/rviz.png)
 
 # 7.21 Updata
 evo:Python package for the evaluation of odometry and SLAM
