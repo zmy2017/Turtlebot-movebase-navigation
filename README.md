@@ -68,7 +68,7 @@ Clone this repository on your computer and catkin_make(catkin_make in the turtle
 ```
 mkdir -p turtlebot_workspace/src
 cd turtlebot_workspace/src
-git clone https://github.com/zmy2017/Turtlebot-path-following.git
+git clone https://github.com/zmy2017/Turtlebot-movebase-navigation.git
 cd ..
 catkin_make
 ```
@@ -108,7 +108,7 @@ killall gzclient
 │   │   ├── get_map.py                        # Select starting and destination points based on the map
 │   │   ├── robot_description.urdf            # Currently is useless.Robot description integrated into one file,convenient for reading
 │   │   ├── test_domain_randomization.py      # test code for domain randomization
-│   │   ├── test_navigation.py                # Example code
+│   │   ├── test_navigation.py                # movebase navigation code
 │   └── SimpleWorld                           # Worlds for simulation environments
 ├── gazebo_ext_msgs                           # Custom Service Data
 │   └── srv                                   # include GetSurfaceParams,SetSurfaceParams and others custom services' formats
