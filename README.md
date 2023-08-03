@@ -92,6 +92,8 @@ timestamp x y z q_x q_y q_z q_w
 python test_evo.py
 ```
 
+![](https://github.com/zmy2017/Turtlebot-movebase-navigation/blob/master/trajectory.png)
+
 
 # Additional Remarks
 After  manually forcing interruption the terminal where Gazebo located,use the following commands to kill the Zombie process:
