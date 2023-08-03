@@ -1,6 +1,6 @@
 # Turtlebot-movebase-navigation
 
-Turtlebot follows the trajectory of real world in a simulated  environment  
+Turtlebot navigation with movebase in Gazebo.
 
 
 # Installation
