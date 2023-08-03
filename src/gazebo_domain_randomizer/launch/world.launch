@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find turtlebot_gazebo)/launch/my_turtlebot.launch">
+    <arg name="world_file" value="$(find gazebo_domain_randomizer)/SimpleWorld/World3.world"/>
+  </include>
+</launch>
