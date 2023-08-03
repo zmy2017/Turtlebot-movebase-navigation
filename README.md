@@ -86,7 +86,7 @@ In sim_traj.txt and real_traj.txt,trajectories are  saved as tum format.
 ```
 timestamp x y z q_x q_y q_z q_w
 ```
- test_evo.py:Align timestamps of sim_traj.txt and real_traj.txt,and analyze the differences between simulated and real trajectories.Open a terminal run:
+ test_evo.py:Align timestamps of sim_traj.txt and real_traj.txt,and analyze the differences between simulated and pseudo reality(another simulated) trajectories.Open a terminal run:
 
 ```
 python test_evo.py
