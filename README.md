@@ -1,22 +1,7 @@
 # Turtlebot-movebase-navigation
 
 Turtlebot follows the trajectory of real world in a simulated  environment  
-# 7.21 Updata
-evo:Python package for the evaluation of odometry and SLAM
 
-```
-pip install evo --upgrade --no-binary evo
-```
-
-In sim_traj.txt and real_traj.txt,trajectories are  saved as tum format.
-```
-timestamp x y z q_x q_y q_z q_w
-```
- test_evo.py:Align timestamps of sim_traj.txt and real_traj.txt,and analyze the differences between simulated and real trajectories.Open a terminal run:
-
-```
-python test_evo.py
-```
 
 # Installation
  Install ROS,if it is not already installed.  
@@ -88,6 +73,24 @@ On terminal 2 run:
 ```
 python test_navigation.py
 ```
+
+# 7.21 Updata
+evo:Python package for the evaluation of odometry and SLAM
+
+```
+pip install evo --upgrade --no-binary evo
+```
+
+In sim_traj.txt and real_traj.txt,trajectories are  saved as tum format.
+```
+timestamp x y z q_x q_y q_z q_w
+```
+ test_evo.py:Align timestamps of sim_traj.txt and real_traj.txt,and analyze the differences between simulated and real trajectories.Open a terminal run:
+
+```
+python test_evo.py
+```
+
 
 # Additional Remarks
 After  manually forcing interruption the terminal where Gazebo located,use the following commands to kill the Zombie process:
